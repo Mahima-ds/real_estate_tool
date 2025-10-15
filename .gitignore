@@ -1,2 +1,29 @@
+# Python environment / virtual env
+venv/
 .env
-.env
+
+# Streamlit secrets
+.streamlit/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Mac / Windows system files
+*.swp
+*.swo
