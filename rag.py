@@ -2,14 +2,18 @@ from uuid import uuid4
 from pathlib import Path
 import streamlit as st
 
+# ✅ Use community versions for loaders, vectorstores, and embeddings
 from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_groq import ChatGroq
-from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
+
+# ✅ Chain and prompt utilities remain same
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.prompts import ChatPromptTemplate
+
 
 # ==========================
 # 🔑 API Keys and Constants
