@@ -1,9 +1,0 @@
-langchain
-streamlit
-unstructured
-tiktoken
-langchain_chroma
-langchain_groq
-langchain_community
-protobuf
-langchain_huggingface
