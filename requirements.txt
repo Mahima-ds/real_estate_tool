@@ -4,7 +4,7 @@ tiktoken==0.4.0
 langchain==0.1.16
 chromadb==0.5.3
 langchain_community==0.0.33
-langchain_groq==0.0.16
+langchain_groq==0.2.5
 protobuf==4.25.3
 torch
 transformers
