@@ -1,0 +1,9 @@
+streamlit==1.50.0
+unstructured==0.7.5
+tiktoken==0.4.0
+langchain==0.1.148
+langchain-chroma==0.1.0
+langchain-groq==0.0.16
+langchain-community==0.0.289
+protobuf==6.32.1
+langchain-huggingface==0.0.27
